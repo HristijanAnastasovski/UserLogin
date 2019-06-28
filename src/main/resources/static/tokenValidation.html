@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Token Validation</title>
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.js"></script>
+</head>
+<body>
+
+
+<div class="container w-25">
+    <h1>Verify User</h1>
+    <div class="row">
+        <div class="col">
+            <form name="f" action="/manuallyVerifyUser" method='POST' class="mb-2">
+                <div class="form-group">
+                    <label>Your Token:</label>
+                    <input class="form-control" type='text' name='token' value='' placeholder="Token">
+                </div>
+                <button class="btn btn-success" type="submit" value="submit">Verify</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

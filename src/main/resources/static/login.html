@@ -1,0 +1,42 @@
+<html>
+<head>
+    <Title>Login</Title>
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.js"></script>
+</head>
+
+<body>
+
+<div class="container w-25">
+    <h1>Login</h1>
+    <div class="row">
+        <div class="col">
+            <form name="f" action="login" method='POST' class="mb-2">
+                <div class="form-group">
+                <label>E-mail:</label>
+                <input class="form-control" type='text' name='username' value='' placeholder="E-mail">
+                </div>
+
+                <div class="form-group">
+                    <label>Password:</label>
+                    <input class="form-control" type='password' name='password' placeholder="Password">
+                </div>
+
+                <div class="form-group">
+                    <label>Remember Me:</label>
+                    <input class="form-control" type="checkbox" name="remember-me">
+                </div>
+
+                <button class="btn btn-success" type="submit" value="submit">Log in</button>
+            </form>
+            <a href="forgotPassword.html">Forgot password?</a>
+            <br/>
+            <a href="register.html">Not a member yet? Register for free!</a>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
